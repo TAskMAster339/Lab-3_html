@@ -23,6 +23,7 @@ body{
 .hypref{
     color: black;
     transition: 0.5s;
+    text-decoration: none;
 }
 .hypref:active{
     color: green;
