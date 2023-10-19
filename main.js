@@ -1,14 +1,14 @@
 const btn = document.getElementById('btn');
 const list = document.getElementById('list');
-let isShown = false
+let isShown = false;
 
 function toggleListVisibility(){
     if (isShown){
         list.style.display = 'none';
-        isShown = false
+        isShown = false;
     }else{
         list.style.display = 'block';
-        isShown = true
+        isShown = true;
     }
 }
 
